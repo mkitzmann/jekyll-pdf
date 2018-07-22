@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-pdf"
-  spec.version       = "0.1.7"
+  spec.version       = "0.1.8"
   spec.summary       = "A PDF generator for Jekyll"
   spec.description   = "A Jekyll plugin for generating PDFs from your pages, posts & documents."
 
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["adam@abemedia.co.uk"]
 
   spec.files         = `git ls-files`.split($/)
-  spec.has_rdoc      = false
+  #spec.has_rdoc      = false
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "wkhtmltopdf-installer", "~> 0.12"
