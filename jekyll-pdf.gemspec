@@ -10,7 +10,6 @@ Gem::Specification.new do |spec|
   spec.email         = ["adam@abemedia.co.uk"]
 
   spec.files         = `git ls-files`.split($/)
-  #spec.has_rdoc      = false
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "wkhtmltopdf-installer", "~> 0.12"
